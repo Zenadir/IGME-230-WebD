@@ -23,7 +23,7 @@
 
 
 # Game Name:
-EndGon: Demon Way to Hell,  Grass Tower to Heaven
+    EndGon: Demon Way to Hell,  Grass Tower to Heaven
 
 ## 1. High Concept
 
@@ -31,8 +31,8 @@ EndGon: Demon Way to Hell,  Grass Tower to Heaven
 and nature themed baddies while defending the ground beneath their feet in this fast
 paced fever dream of an adventure game.
     
-+ Its like Mario bros (1983) but you control a katana wielding monk and a giant demon head
-with laser eyes
++ Its like Mario Bros (1983) but you control a katana wielding monk riding a giant demon head
+with laser eyes.
     
 ## 2. Genre
     A 2D action-adventure arena fighter with elements of objective defense and management.
@@ -48,17 +48,19 @@ In this cruel acid-trip of a world, the Bulb Shogunate (the lord of the land) ha
 begun enslaving common-folk to construct a tower to heaven so that he can conquer it.
 Playing as a wandering widower monk from a land far away, you must command and
 defend EndGon (the flying maw-gate to the underworld) as it soars up the tower.
-In a quest to save the land from the tyranny of the shogunate and your family in heaven
-whom you couldn't save on earth you must slash and raze your way through a hailstorm of flying Shaolin monks
+In a quest to save the land from the tyranny of the shogunate (and your family in heaven
+whom you couldn't save on earth) you must slash and raze your way through a hailstorm of flying Shaolin monks
 and other nature themed enemies.
 
-    A fundamental themes of the game is its confusing, somewhat unpalatable, borderline artistically tasteless content.
+
+A fundamental themes of the game is its confusing, somewhat unpalatable, borderline artistically tasteless content.
 I want the game to feel almost alien in terms of the style of its visual & conceptual delivery.
 The story should be very difficult for the player to follow (I.E. virtually up for interpretation)
-and the dialogue (if any) should be written in gibberish. It seems reasonable to do this
+and the dialogue (if any) should be written in gibberish that mimics the characters
+of various languages spoken by the cultures of asia. It seems reasonable to do this
 for two reasons:
-1. it fits the strange and uncomfortable aesthetic the game is trying to emanate.
-2. With a more simple game like this, it doesn't seem very fitting for story to play a large role.
+1. It fits the strange and uncomfortable aesthetic the game is trying to emanate.
+2. With a relatively simple game like this, it doesn't seem very fitting for story to play a large role.
 Gameplay and visuals should be prioritized. 
 
 I suppose an underlying theme of the game is a defiance against complacency. One of my favorite quotes
@@ -68,15 +70,15 @@ I suppose an underlying theme of the game is a defiance against complacency. One
  Shogun. Even in a land far away from his own he still attempts to make the right choice and help
  others. This is partially out of his own interests (saving his family) but also out of
  the ideology that had someone else done the same for him (risking their lives to save his family), he might not have
- been a father without children and a husband without a wife. He won't let the same thing that happened
+ been a father without children and a husband without a wife. The monk won't let the same thing that happened
  to him happen to others and so he puts his life and the sanctity of his soul on the line to collaborate
  with a literal portal to hell and fight against an establishment whose power is far beyond his own.
  
- EndGon, the gate to hell, is traversing the tower to preserve equilibrium. If the shogunate were to
+ EndGon, the gate to hell, is traversing the tower to preserve equilibrium in the realm. If the shogunate were to
  conquer heaven, a natural balance in power between man and spirits would be disturbed. Without heaven,
- by contrast of sensation there would be no hell: those who live without honor would be rewarded and vice-versa.
- As a result, EndGon must preserve the balance. Realistically, the explanations for EndGon's and the monk's
- behavior don't really matter because they won't be central to gameplay. 
+ by contrast of sensation there would be no hell: those who live without honor would be rewarded and the innocent
+ would be punished. As a result, EndGon must preserve the balance. Realistically, the explanations for
+ EndGon's and the monk's behavior don't really matter because they won't be central to gameplay. 
 
 ## 5. Esthetic
 Aesthetically the game should be a confusing mess of saturated colors, a mosh pit of textures,
@@ -84,21 +86,24 @@ and filled to the brim with themes of nature and old Asia. The art style consist
 art along with altered/disfigured photographs and feudal/period art.
 The atmosphere should be disturbing and on edge: conflicting, dark saturated reds and blues
 glaze the screen as hordes of bizarre enemies encroach the monk and EndGon from all sides.
-The game should be a window in to some bootleg nightmare hellscape that obviously could never exist.
+The game should be a window in to a bootleg nightmare hell-scape whose existence in a fictional setting
+is enough to prompt discomfort.
 
 Ideally sounds would trigger when:
-+ the monk hits an enemy.
-+ when EndGon lasers an enemy ( each time it hits)
-+ when an enemy dies
-+ when an enemy does its attack animation
-+ when an enemy hits the monk or EndGon, when Endgon's shell breaks
-+ when EndGon shoots his tongue out, when Endgon's tongue touches an enemy or the monk
-+ when Endgon reels an enemy back in with its tongue
-+ when endgon chews on an enemy or the monk
-+ when EndGon spits out a projectile,
-when the monk walks, when the monk jumps, and when the monk climbs on EndGon.
++ Monk hits an enemy.
++ EndGon lasers an enemy ( each time it hits).
++ An enemy dies.
++ An enemy performs its attack animation.
++ An enemy hits the monk or EndGon, when Endgon's shell breaks.
++ EndGon shoots his tongue out, when Endgon's tongue touches an enemy or the monk.
++ EndGon reels an enemy back in with its tongue.
++ EndGon chews on an enemy or the monk.
++ When EndGon spits out a projectile.
++ When the monk walks.
++ When the monk jumps.
++ When the monk climbs on EndGon.
 
-I probably missed some (although it seems unlikely that all this sound will be implemented anyways).
+I am probably forgetting a few (although it seems unlikely that all this sound will be implemented anyways due to time constraints).
 
 I would like for there to be a lot of over the top (borderline obnoxious) enemy death sounds: a mixture
 of digital and vocal SFX that are chosen randomly upon an enemy's death
@@ -114,6 +119,23 @@ track over and over if they died, as they would reset back to the beginning. Tha
 ## 6. Gameplay:
 
 ### Mechanics-
+
+Note: I apologize if there are repeated mentions of a mechanic following the basic mechanics.
+However, this is intentional: 
+####Basic Mechanics:
+
+The Monk:
++ can slash his sword in the direction he is facing to deal damage to enemies.
++ can walk around on top of EndGon's head.
++ can grab onto EndGon's body to maneuver around on him.
++ can slash his sword in the direction he is facing while grabbing onto EndGon.
+
+EndGon:
++ can shoot eye lasers in the direction of the cursor (probably requiring a recharge: tbd);
++ His eyes will likely turn at a delayed pace to follow the cursor, so the player will need to prepare.
++ can shoot his tongue out in the direction of the cursor to grab an enemy or the monk. Once he has grabbed an enemy, it will automatically be dragged into his mouth.
++ can consume enemies over time, restoring health to his skin underneath his shell.
++ can restore the monk's health by holding him in his mouth. 
 
 + An important feature of gameplay is that if either the monk or EndGon die, the player loses.
 As a result, the player has to be somewhat conservative in defending both.
@@ -264,8 +286,8 @@ sword at the same time.
 ### Climbing the Tower:
 ![Screenshot #1](https://github.com/Zenadir/IGME-230-WebD/blob/master/EGScreenshot1.png)
 
-The blue treefrog-esque character on the right is the monk, killing a leech.
-The flying head is EndGon
+The blue treefrog-esque character on the right is the monk killing a leech.
+The flying head with moth wings is EndGon.
 
 ### Fighting the Bulb Shogunate:
 ![Screenshot #2](https://github.com/Zenadir/IGME-230-WebD/blob/master/EGScreenshot2.png)
