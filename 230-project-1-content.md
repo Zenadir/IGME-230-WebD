@@ -308,12 +308,12 @@ The flying head with moth wings is EndGon.
 
 + The name EndGon is comprised of two concepts of different flavor:
     EnDgon is phonically similar to n-gon: a term used in 3d modeling that references a face with more than four edges.
-    From my understanding, n-gons can have very detimental effects if they remain in a 3d model in game development.
+    From my understanding, n-gons can have very detrimental effects if they remain in a 3d model in game development.
     This really doesn't have to do with anything: I just thought it would be funny to include an evil "n-gon" in a game,
     and I greatly enjoy games with an evil atmosphere &/or antihero protagonist.
 
 + The "demon way to hell" is a "philosophy" described (and paraphrased) in a classic japanese movie series: "Lone Wolf and Cub". 
-    It is a bit difficult to explain what it actually means. If I had to try, I would say its a justification to follow the path of evil or dishonor under an accepted spiritual / moral consiquence
+    It is a bit difficult to explain what it actually means. If I had to try, I would say its a justification to follow the path of evil or dishonor under an accepted spiritual / moral consequence
     or a disconnect from reality. In other words, you "take the low road" to get to where you want to go: you know your doing wrong, but you do it anyways because the end goal is righteous or
     the world is a game and it doesn't matter if you break the rules if you have already broken them once. Additionally, the name just sounds gritty.
         
