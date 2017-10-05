@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/gameStyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EndGon Homepage</title>
+</head>
+
+
+
+<body>
+    
+    <!-- The top banner of the page containing the title and an image (check CSS for details -->
+    <header class="HBanner" id="top">
+        <h1>EndGon: Grass Tower, Demon Way</h1>
+    </header>
+
+
+<!-- Navigation for the page that appears when the page gets small enough. The user can click on
+    it in the top left corner to expand it. onclick lets apple devices use it. -->
+        <!-- This navigation contains the same content that would be in the left and right banners, but because
+        mobile devices usually dont have enough room to hold those banners, we use the hamburger navigation -->
+    <nav id="hamburgerNav" onclick = "">
+        
+        
+            <!-- FIRST INDEX-->
+            <!-- This first Index (on the LEFT BANNER also) targets specific locations on any given page and allows the user to warp to them by clicking
+            the respective link-->
+         <nav class="index">
+            
+            <h5>Index</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="#top" class="indexLink">Top of Page</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+         
+         
+          <!-- SECOND INDEX-->
+        <!-- This index (on the RIGHT BANNER also, underneath in hamburger navigation) takes the user to links outside of / unrelated
+        to this webpage -->
+          <nav class="index">
+            <h5>Other Links</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="../" class="indexLink">My 230 Page</a>
+
+                <div class="divider"></div><a href="https://github.com/Zenadir" class="indexLink">My Github Profile</a>
+
+                <div class="divider"></div><a href="https://people.rit.edu/~spbics/230-04.shtml" class="indexLink">The 230 Class List</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+      
+     </nav>
+        
+
+     <!-- LEFT BANNER-->
+    <!-- Look above at the FIRST INDEX at hamburger navigation for comments -->
+    <div id="leftBanner">
+        <nav class="index">
+            <h5>Index</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="#top" class="indexLink">Top of Page</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- RIGHT BANNER-->
+    <!-- Look above at the SECOND INDEX in the hamburger navigation for more comments about this index -->
+    <div id="rightBanner">
+        <nav class="index">
+            <h5>Other Links</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="../" class="indexLink">My 230 Page</a>
+
+                <div class="divider"></div><a href="https://github.com/Zenadir" class="indexLink">My Github Profile</a>
+
+                <div class="divider"></div><a href="https://people.rit.edu/~spbics/230-04.shtml" class="indexLink">The 230 Class List</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- A bar below the header containing all of the pages in the website that the user can navigate to -->
+    <nav id="navBar">
+        <div class="navBox" id="currentPage">
+            <a href=".">Homepage</a>
+        </div>
+
+        <div class="navBox">
+            <a href="proposal.html">Design Proposal</a>
+        </div>
+
+        <div class="navBox">
+            <a href="documentation.html">Documentation</a>
+        </div>
+
+        <div class="navBox">
+            <a href="gamePage.html">The Game</a>
+        </div>
+    </nav>
+
+    <!-- Contains all of the written content of the page of the site -->
+    <article id="mainContent">
+        
+        
+    
+        <!-- The name of whatever page the user is currently on. -->
+        <div id="pageTitle">
+            <h2>Overview</h2>
+        </div>
+
+        <section>
+            <p>EndGon is a 2D action adventure game. Play as a wandering warrior monk and command EndGon
+            (the gate to hell) as you cleave and burn your way through an army of flying Shaolin monks and
+            nature themed baddies in a quest to save heaven and earth from the tyrannical Bulb Shogun.</p>
+            
+                <div class="divider"></div>
+        
+                   
+            <img src="Media/EGS2.png" alt="Picture of EndGon">
+        </section>
+        
+    </article>
+
+    <footer class="HBanner">© Gabryel Dworman</footer>
+</body>
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/gameStyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EndGon Proposal</title>
+</head>
+
+<body>
+   
+    <!-- The top banner of the page containing the title and an image (check CSS for details -->
+    <header class="HBanner" id="top">
+        <h1>EndGon: Grass Tower, Demon Way</h1>
+    </header>
+    
+    <!--Navigation for the page that appears when the page gets small enough. The user can click on
+    it in the top left corner to expand it. onclick lets apple devices use it. -->
+        <!-- This navigation contains the same content that would be in the left and right banners, but because
+        mobile devices usually dont have enough room to hold those banners, we use the hamburger navigation -->
+        <nav id="hamburgerNav" onclick>
+        
+        <nav class="index">
+            
+            <!-- FIRST INDEX-->
+            <!-- This first Index (on the LEFT BANNER also) targets specific locations on any given page and allows the user to warp to them by clicking
+            the respective link -->
+            <h5>Index</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="#top" class="indexLink">Top of Page</a>
+
+                <div class="divider"></div><a href="#highConcept" class="indexLink">High Concept</a>
+
+                <div class="divider"></div><a href="#genre" class="indexLink">Genre</a>
+
+                <div class="divider"></div><a href="#platform" class="indexLink">Platform</a>
+
+                <div class="divider"></div><a href="#esthetic" class="indexLink">Esthetic</a>
+
+                <div class="divider"></div><a href="#gameplay" class="indexLink">Gameplay</a>
+
+                <div class="divider"></div><a href="#controls" class="indexLink">Controls</a>
+
+                <div class="divider"></div><a href="#teaching" class="indexLink">Teaching</a>
+                
+                <div class="divider"></div><a href="#learning" class="indexLink">Learning</a>
+
+                <div class="divider"></div><a href="#other" class="indexLink">Other</a>
+
+                <div class="divider"></div><a href="#screenshots" class="indexLink">Images</a>
+
+                <div class="divider"></div><a href="#me" class="indexLink">About Me</a>
+
+                <div class="divider"></div>
+            </div>
+            
+            
+        </nav>
+        
+        <!-- SECOND INDEX -->
+        <!-- This index (on the RIGHT BANNER also, underneath in hamburger navigation) takes the user to links outside of / unrelated
+        to this webpage -->
+        
+       <nav class="index">
+            <h5>Other Links</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="../" class="indexLink">My 230 Page</a>
+
+                <div class="divider"></div><a href="https://github.com/Zenadir" class="indexLink">My Github Profile</a>
+
+                <div class="divider"></div><a href="https://people.rit.edu/~spbics/230-04.shtml" class="indexLink">The 230 Class List</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+
+
+        
+        
+    </nav>
+        
+    <!-- LEFT BANNER -->
+    <!-- Look above at the FIRST INDEX at hamburger navigation for comments -->
+    <div id="leftBanner">
+        <nav class="index">
+            <h5>Index</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="#top" class="indexLink">Top of Page</a>
+
+                <div class="divider"></div><a href="#highConcept" class="indexLink">High Concept</a>
+
+                <div class="divider"></div><a href="#genre" class="indexLink">Genre</a>
+
+                <div class="divider"></div><a href="#platform" class="indexLink">Platform</a>
+
+                <div class="divider"></div><a href="#esthetic" class="indexLink">Esthetic</a>
+
+                <div class="divider"></div><a href="#gameplay" class="indexLink">Gameplay</a>
+
+                <div class="divider"></div><a href="#controls" class="indexLink">Controls</a>
+
+                <div class="divider"></div><a href="#teaching" class="indexLink">Teaching</a>
+                
+                <div class="divider"></div><a href="#learning" class="indexLink">Learning</a>
+
+                <div class="divider"></div><a href="#other" class="indexLink">Other</a>
+
+                <div class="divider"></div><a href="#screenshots" class="indexLink">Images</a>
+
+                <div class="divider"></div><a href="#me" class="indexLink">About Me</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- RIGHT BANNER -->
+    <!-- Look above at the SECOND INDEX in the hamburger navigation for more comments about this index -->
+    <div id="rightBanner">
+        <nav class="index">
+            <h5>Other Links</h5>
+
+            <div class="indexInterior">
+                <div class="divider"></div><a href="../" class="indexLink">My 230 Page</a>
+
+                <div class="divider"></div><a href="https://github.com/Zenadir" class="indexLink">My Github Profile</a>
+
+                <div class="divider"></div><a href="https://people.rit.edu/~spbics/230-04.shtml" class="indexLink">The 230 Class List</a>
+
+                <div class="divider"></div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <!-- A bar below the header containing all of the pages in the website that the user can navigate to -->
+    <nav id="navBar">
+        <div class="navBox">
+            <a href="index.html">Homepage</a>
+        </div>
+
+        <div class="navBox" id="currentPage">
+            <a href="proposal.html">Design Proposal</a>
+        </div>
+
+        <div class="navBox">
+            <a href="documentation.html">Documentation</a>
+        </div>
+
+        <div class="navBox">
+            <a href="gamePage.html">The Game</a>
+        </div>
+    </nav>
+
+    <!-- Contains all of the written content of the page of the site -->
+    
+    <article id="mainContent">
+
+        <!-- The name of whatever page the user is currently on. -->
+        <div id="pageTitle">
+            <h2>Design Proposal</h2>
+        </div>
+  
+          
+            <section>
+                
+                <h3 id="highConcept">#1 High Concept:</h3>
+
+                <div class="divider"></div>
+
+                <ul>
+                    <li>The player must slice, dice, and laser their way through a bulwark of flying Shaolin monks and nature themed baddies while defending the ground beneath their feet in this fast paced fever dream of an adventure game.</li>
+
+                    <li>Its like Mario Bros (1983) but you control a katana wielding monk riding a giant demon head with laser eyes.</li>
+                </ul>
+            </section>
+            
+            
+            <section>
+                <h3 id="genre">#2 Genre:</h3>
+
+                <div class="divider"></div>
+
+                <p>EndGon will be a 2D action-adventure arena fighter with elements of objective defense and management.</p>
+            </section>
+            
+           
+
+            <section>
+                <h3 id="platform">#3 Platform:</h3>
+
+                <div class="divider"></div>
+
+                <p>EndGon will be for desktop only.</p>
+            </section>
+
+
+            
+            
+            <section>
+                <h3>#4 Story:</h3>
+
+                <div class="divider"></div>
+
+                <p>The year is 1300AD, the location is somewhere in Asia, and the dimension is definitely not ours.</p>
+
+                <div class="divider"></div>
+
+                <p>In this cruel acid-trip of a world, the Bulb Shogunate (the lord of the land) has gone mad and begun enslaving common-folk to construct a tower to heaven so that he can conquer it. Playing as a wandering widower monk from a land far away, you must command and defend EndGon (the flying maw-gate to the underworld) as it soars up the tower. In a quest to save the land from the tyranny of the shogunate (and your family in heaven whom you couldn't save on earth) you must slash and raze your way through a hailstorm of flying Shaolin monks and other nature themed enemies.</p>
+
+                <div class="divider"></div>
+
+                <p>A fundamental themes of the game is its confusing, somewhat unpalatable, borderline artistically tasteless content. I want the game to feel almost alien in terms of the style of its visual and conceptual delivery. The story should be very difficult for the player to follow (I.E. virtually up for interpretation) and the dialogue (if any) should be written in gibberish that mimics the characters of various languages spoken by the cultures of Asia. It seems reasonable to do this for two reasons:</p>
+
+                <ol>
+                    <li>It fits the strange and uncomfortable aesthetic the game is trying to emanate.</li>
+
+                    <li>With a relatively simple game like this, it doesn't seem very fitting for story to play a large role. Gameplay and visuals should be prioritized.</li>
+                </ol>
+
+                <div class="divider"></div>
+
+                <p>I suppose an underlying theme of the game is a defiance against complacency. One of my favorite quotes connects to this idea: "The only thing necessary for evil to triumph is for good men to do nothing"(Castlevania SotN). The main character of this game, the monk, is acting on this principle. As someone who was unable to save his family from death, he has been given a second chance to save them (and others) from the Bulb Shogun. Even in a land far away from his own he still attempts to make
+                a morally righteous choice and help others. This is partially out of his own interests (saving his family) but also out of the ideology that had someone else done the same for him (risking their lives to save his family) he might not have been a father without children and a husband without a wife. The monk won't let the same thing that happened to him happen to others and so he puts his life and the sanctity of his soul on the line to collaborate with a literal portal to hell and fight
+                against an establishment whose power is far beyond his own.</p>
+
+                <div class="divider"></div>
+
+                <p>EndGon (the character) is traversing the tower to preserve equilibrium in the realm. If the shogunate were to conquer heaven a natural balance in power between man and spirits would be disturbed. Without heaven, by contrast of sensation there would be no hell: those who live without honor would be rewarded and the innocent would be punished. As a result, EndGon must preserve the balance. Realistically, the explanations for EndGon's and the monk's behavior don't really matter because they won't be central to gameplay.</p>
+            </section>
+            
+            
+            
+         
+            <section>
+                <h3 id="esthetic">#5 Esthetic:</h3>
+                
+            
+                <div class="divider"></div>
+                    
+
+
+                <p>Aesthetically the game should be a confusing mess of saturated colors, a mosh pit of textures,
+                and filled to the brim with themes of nature and old Asia. The art style consists of a chaotic
+                melding of abstract expressionist art along with altered/disfigured photographs and feudal/period
+                art. The atmosphere should be disturbing and on edge: conflicting, dark saturated reds and blues
+                glaze the screen as hordes of bizarre enemies encroach the monk and EndGon from all sides.
+                The game should be a window in to a bootleg nightmare hell-scape whose existence in a fictional
+                setting is enough to prompt discomfort.</p>
+
+                <div class="divider"></div>
+      
+
+
+                <p>Ideally sounds would trigger when:</p>
+
+                <ul>
+                    <li>The monk hits an enemy.</li>
+
+                    <li>EndGon hits an enemy with a laser (every second).</li>
+
+                    <li>An enemy performs its attack animation.</li>
+
+                    <li>An enemy hits the monk or EndGon.</li>
+
+                    <li>EndGon's shell breaks.</li>
+
+                    <li>EndGon shoots his tongue out.</li>
+
+                    <li>EndGon's tongue touches an enemy or the monk.</li>
+
+                    <li>EndGon reels an enemy into its mouth with its tongue.</li>
+
+                    <li>EndGon chews on an enemy or the monk.</li>
+
+                    <li>EndGon spits out a projectile.</li>
+
+                    <li>The monk walks.</li>
+
+                    <li>The monk jumps.</li>
+
+                    <li>The monk climbs on EndGon.</li>
+                </ul>
+
+
+                <div class="divider"></div>
+                     
+
+                <p>I am probably forgetting a few sound effects (although it seems
+                unlikely that all this sound will be implemented anyways due to time constraints).</p>
+
+
+                <div class="divider"></div>
+                        
+
+                <p>I would like for there to be a lot of over the top (borderline obnoxious)
+                enemy death sounds: a mixture of digital and vocal SFX (the vocals being recorded
+                by me) that are chosen randomly upon an enemy's death.</p>
+
+
+                <div class="divider"></div>
+                           
+                <p>The background music would probably be a mixture of vaporwave and lo-fi music.
+                Vaporwave is typically pretty strange and colorful and lo-fi is usually calm, which
+                suits the bloody slaughter of evil Shaolin monks by sheer contrast. I don't intend
+                on making the music myself. If time permits, it would be nice to experiment.</p>
+
+
+                <div class="divider"></div>
+                
+               
+
+                <p>As time progresses and the player traverses farther up the tower the tracks
+                could switch. The tracks could either be randomly selected or they could have a
+                set orientation (I.E. they trigger at specific points in the level). It would
+                probably be better if they were random considering that the player would have
+                to listen to the same track over and over if they died, as they would reset back
+                to the beginning. That would be frustrating.</p>
+            </section>
+            
+
+
+            <section>
+                <h3 id="gameplay">#6 Gameplay:</h3>
+
+
+                <div class="divider"></div>
+                  
+
+
+
+
+                <h4>Mechanics</h4>
+
+
+                <div class="divider"></div>
+                
+
+                <p>Note: The same mechanics may be listed more than once in different contexts. This is intentional: I don't like to delete ideas even if they are already written down from the fact that looking at them next to another mechanic might inspire new ideas. Sometimes the specific wording can be important as well in regard to my personal understanding.</p>
+
+
+                <div class="divider"></div>
+                   
+
+
+
+
+                <h4>The Monk</h4>
+
+                        
+                <div class="divider"></div>
+        
+                        
+                <ul>
+                    <li>He can slash his sword in the direction he is facing to deal damage to enemies.</li>
+
+                    <li>He can walk around on top of EndGon's head.</li>
+
+                    <li>He can grab onto EndGon's body to maneuver around on him.</li>
+
+                    <li>He can slash his sword in the direction he is facing while grabbing onto EndGon.</li>
+                </ul>
+
+
+                <div class="divider"></div>
+                  
+
+
+
+
+
+                <h4>EndGon</h4>
+
+                <div class="divider"></div>
+                
+
+                <ul>
+                    <li>can shoot eye lasers in the direction of the cursor (probably requiring a recharge: to be determined);</li>
+
+                    <li>His eyes will likely turn at a delayed pace to follow the cursor so that the player will need to prepare.</li>
+
+                    <li>He can shoot his tongue out in the direction of the cursor to grab an enemy or the monk. Once he has grabbed an enemy, it will automatically be dragged into his mouth.</li>
+
+                    <li>He can consume enemies over time, restoring health to his skin underneath his shell.</li>
+
+                    <li>He can restore the monk's health by holding him in his mouth.</li>
+
+                    <li>EndGon has a shell that surrounds various parts of his face that can be broken off by the enemy. If an enemy deals enough damage to any one part of EndGon's face after breaking its respective shell (the color of the skin beneath changing to reflect how much damage it has taken) endgon will collapse and the player will lose.</li>
+
+                    <li>Endgon's shell will return after covering a a certain percentage of the tower (increments of 20% probably), although the skin beneath will not be healed at these points.</li>
+                </ul>
+
+                       
+                <div class="divider"></div>
+                    
+
+
+
+
+                <h4>Other Details</h4>
+
+                <div class="divider"></div>
+             
+
+                <ul>
+                    <li>If the monk takes enough damage from enemies, he will "die" and go into free-fall. If the monk's dead body touches the bottom of the screen, he wont respawn until the player reaches EndGon's next shell checkpoint (20% increment). In all likelyhood this will probably cause the player to lose. However, it is a good way to encourage the player to go all out in a fight if they believe that the next checkpoint is coming.</li>
+
+                    <li>If the player uses EndGon's tongue to catch the monk in a state of freefall, EndGon can heal the monk over time. Once the monk is healed by a certain threshold (at first taking less than the amount of time that it would normally take to heal back to full, but taking increasingly longer for each death) he will return to life and receive a temporary attack power and speed buff.</li>
+
+                    <li>Both EndGon and the monk receive partner danger bonuses: If either the monk or EndGon takes damage, the other partner's attack power and speed (eyeball rotation speed for EndGon) will be boosted temporarily with a potency that is proportionate to the amount of damage taken. This caps off at a certain point.</li>
+
+                    <li>Additionally EndGon can deal damage to the monk with eye lasers to power up his partner danger bonus, causing him to deal more damage with eye lasers and projectile spitting (and potentially monk health regeneration).</li>
+
+                    <li>Perhaps the monk's slice will be more powerful depending on the distance from the player (the closer the monk's center is to the enemy, the more damage he will do).</li>
+
+                    <li>Likewise, the more kills that the monk scores without taking damage (decreasing, but not resetting when he takes damage) the more attack power and speed he will be granted. This caps off at a certain point.</li>
+
+                    <li>In some sense, the game is heavily based on managing resources: EndGon isn't punished for taking damage and the monk receives a power and speed bonus if EndGon is hit. so in cases of extreme stress it might just be better to let EndGon get hit in a non-lethal area and let the monk kill a group of enemies. Additionally, while it is somewhat punishing, the same action can be performed with the monk: making him take some damage in quick succession to kill a group of enemies more quickly with EndGon.</li>
+
+                    <li>These mechanics are implemented to reward the player for using their resources well, to reward them for playing carefully, and to not punish them too much for messing up and getting hit.</li>
+
+                    <li>Perhaps the player could damage boost off of an enemy, jumping into their attack to bounce in the other direction</li>
+
+                    <li>It is appropriate that the monk (and probably EndGon) would have invincibility frames where they can't take damage a certain number of frames after being hit.</li>
+
+                    <li>It is likely that the monk will have the ability to jump on enemies heads as a way of maneuvering. This would allow the monk to reach enemies that he would normally not be able to.</li>
+
+                    <li>Upon dying there may be a UI element showing chart of the tower and a percentage of how much of it that the player traversed. This would be an incentive for the player to overcome their highest percentage.</li>
+
+                    <li>Enemy spawn locations are to be set manually (either activating at a certain time or by physically passing a trigger). This way there can be certain circumstances where the player is intended to use their resources in a specific way in order to overcome it. While this may make the game a little less interesting and replayable it will give more control to the circumstances in which the player has to endure: I want to make sure that its actually possible to overcome a specific part of the game with the combinations and quantities of enemies that spawn.</li>
+                </ul>
+
+                <div class="divider"></div>
+                
+          
+                        
+
+                <p>The list of potential enemies by type include:</p>
+
+                <ol>
+                    <li>Basic Melee: Enemies that fly towards the player and try to attack them with swords. They have an animation where they swing the sword above their head to give the player a moment to hit them. These enemies flinch (perhaps only if they are hit in a specific area) when hit. Maybe they should have a segment of their animation where they flinch if they are hit. Otherwise, hitting them increases the speed of the animation: this would promote a more precise plan of attack rather than just mashing left
+                    click.</li>
+
+                    <li>Leeches: Weaker enemies that come in packs and latch onto EndGon from the closest location and deal damage over time. Perhaps they could give a small boost to nearby enemies when latched. EndGon wouldn't be able to handle these enemies once they are attached to him unless he spits an projectile out at them.</li>
+
+                    <li>Drills: Enemies that deal constant (albeit not very frequent) damage upon contact. Shooting them with eye lasers would push them away.</li>
+
+                    <li>Archers: Enemies that shoot either at the monk or EndGon at a range which the monk cannot normally reach without jumping on another enemy's head. Upon spawning, they will either choose the player or one of EndGon's facial regions to attack.</li>
+
+                    <li>The Bulb Shogunate: This would be the final boss of the game. His abilities are to be determined.</li>
+                </ol>
+
+                <div class="divider"></div>
+                  
+                        
+                        
+
+                <h4 id="controls">Controls</h4>
+
+                <div class="divider"></div>
+  
+
+                 <ul>
+                    <li>The 'a' &amp; 'd' keys [when the monk is on top of EndGon or in the air]- Moves the monk to the left and right respectively.</li>
+
+                    <li>The spacebar [when the monk is on top of EndGon or grabbing EndGon]- Causes the monk to jump upwards. Holding jump causes the monk to stay in the air for longer.</li>
+
+                    <li>The spacebar [when the monk is overlapping EndGon]- gGab onto EndGon.</li>
+
+                    <li>The 'w','a','s', and 'd' keys (when the monk is grabbing onto EndGon)- Moves the monk up, left, down and right respectively.</li>
+
+                    <li>Left click- Slash in the direction that the monk is facing.</li>
+
+                    <li>Shift- Make the monk move more quickly in any given direction.</li>
+
+                    <li>The mouse cursor- The cross-hair for where EndGon can shoot enemies with his laser eyes.</li>
+
+                    <li>Hold right click- Make EndGon shoot eye lasers in the direction of the cursor.</li>
+
+                    <li>Hold the 'e' key- Shoot out EndGon's tongue in the direction of the cursor.</li>
+                </ul>
+                 
+                 
+
+                <div class="divider"></div>
+                
+              
+
+                <h4 id="teaching">Teaching the Game</h4>
+
+
+
+                <div class="divider"></div>
+                
+               
+
+                <p>If it were absolutely necessary for me to do this, I would include a tutorial level outside of the main game that introduces different types of enemies and walks through the controls and mechanics: walking with monk, slicing, aiming and shooting with EndGon, jumping on heads, and maybe the attack &amp; speed boosting mechanics.</p>
+
+                <p>Otherwise, I would rather that the player figure these mechanics out by themselves. The flow of gameplay would be oriented in such a way where the player adapts to the difficulty curve over multiple runs of the game. It would be somewhat integrated into gameplay (giving the player a short amount of time to experiment with controls fighting weaker enemies before more difficult situations emerge) although I don't want for the game to be so easy that they player can complete it in the first run.</p>
+
+                <div class="divider"></div>
+                   
+
+                <h4 id = "learning">Player Learning</h4>
+
+               
+               
+                <div class="divider"></div>
+                     
+
+                <p>If I had to describe strategies that would help the player win the game, they would be:</p>
+
+                <ol>
+                    <li>Use EndGon's tongue to increase the monk's mobility by eating and launching him: Without being spit out the monk is fast, but he will probably have difficulty covering threats on all sides of EndGon.</li>
+
+                    <li>Don't be afraid to let EndGon and Monk take some damage: It might be better to give the monk a boost then and kill all of the enemies on one side then to try and jump through a wall of enemies.</li>
+
+                    <li>Keep your eye out: This is definitely a game that involves multitasking. Try to make sure that you are using all of the abilities at your disposal. If EndGon is damaged underneath his shell and isn't eating anything, shoot his tongue out at an enemy so that he can recover some health. There is no reason not to. It is definitely somewhat difficult, but you will probably be inclined to attack enemies with EndGon's lasers and slash enemies with the monk's sword at the same time.</li>
+
+                    <li>Walk the fine line: If you play dangerously in critical moments, you can be rewarded.</li>
+
+                    <li>Shooting monk's dead body from EndGon's mouth at enemies to kill them</li>
+
+                    <li>Jumping on enemies' heads rather than getting boxed in by them.</li>
+
+                    <li>Getting up-close to enemies with Monk's slash to deal more damage.</li>
+
+                    <li>Shooting monk with EndGon's lasers to give EndGon a partner danger bonus and thus making him more powerful.</li>
+
+                    <li>Kill all the enemies that attack EndGon and dodge all the ones that attack the monk: If you horde all of the enemies that follow or attack the monk together, they can be more easily defeated.</li>
+                </ol>
+            </section>
+
+  
+            
+            
+            
+            <section>
+                <h3 id="other">#7 Other:</h3>
+
+
+
+                <div class="divider"></div>
+                     
+
+                <ul>
+                    <li>The name EndGon is comprised of two concepts of different flavor: EndGon is phonically similar to n-gon: a term used in 3d modeling that references a face with more than four edges. From my understanding, n-gons can have very detrimental effects if they remain in a 3d model in game development. This really doesn't have to do with anything: I just thought it would be funny to include an evil n-gon in a game, and I greatly enjoy games with an evil atmosphere and / or antihero protagonist.</li>
+
+                    <li>The full name of the game is 'EndGon: Grass Tower to Heaven, Demon Way to Hell'. The "demon way to hell" is an ideology described and paraphrased in a classic Japanese movie series: "Lone Wolf and Cub". It is a bit difficult to explain what it actually means. If I had to try, I would say its a justification to follow the path of evil or dishonor under an accepted spiritual or moral consequence (or: an accepted disconnect from reality). In other words, you know you are doing wrong but you do it anyways because the end goal is either
+                    righteous or the moral consequences are meaningless. Additionally, the name just sounds gritty. </li>
+           
+                </ul>
+                
+            </section>
+            
+
+        
+            
+            
+            <section>
+                <h3 id="screenshots">#8 Screenshots:</h3>
+
+                <div class="divider"></div>
+                
+        
+                
+                
+                <img src="Media/EGS1.png" alt="Mockup Game Screenshot #1"> <img src="Media/EGS2.png" alt="Mockup Game Screenshot #2">
+            </section>
+            
+            
+     
+
+            <section>
+                <h3 id="me">#8 About Me:</h3>
+
+
+                <div class="divider"></div>
+                
+                    
+
+                <p>My name is Gabryel Dworman. I am an aspiring game developer currently studying as a sophomore at Rochester Institute of Technology in New York. I have been creating 2D digital art for around four years and deeply enjoy experimenting with style and atmosphere. Usually I try to delve heavily into up-close detail and line work, drawing character busts in front and profile perspectives, although I would like to expand my range. My preferred program is Artrage (5), although I have some experience in Photoshop.
+                My strongest skills (outside of the ones previously mentioned) are in c# coding, html, css, java, c++ and Arduino language.
+                </p>
+            </section>
+     
+        
+     
+     
+    </article>
+
+    <footer class="HBanner"> &copy; Gabryel Dworman</footer>
+</body>
+</html>
